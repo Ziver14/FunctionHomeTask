@@ -10,7 +10,7 @@ double mean(double num1, double num2) {
 	return (num1 + num2) / 2;
 }
 
-int mean_arr(int arr[], const int lenght) {
+double mean_arr(int arr[], const int lenght) {
 	double sum = 0.0;
 	for (int i = 0; i < lenght; i++) {
 
